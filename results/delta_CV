@@ -1,0 +1,50 @@
+Experiment parameters: features = ['delta-rx', 'delta-ry', 'delta-lx', 'delta-ly'], model_selector = <class 'my_model_selectors.SelectorCV'>
+Training models for all words ........
+Training completed in 173.1121905129985 seconds ........
+Recognizing words from test set ........
+Word recognition on test set completed in 12.675700432999292 seconds ........
+
+**** WER = 0.6067415730337079
+Total correct: 70 out of 178
+Video  Recognized                                                    Correct
+=====================================================================================================
+    2: JOHN *LOVE *GO1                                               JOHN WRITE HOMEWORK
+    7: JOHN *FINISH GO *TEACHER                                      JOHN CAN GO CAN
+   12: JOHN CAN *GO1 CAN                                             JOHN CAN GO CAN
+   21: *MARY *MARY *LOVE *MARY *BUY *GO *FUTURE *MARY                JOHN FISH WONT EAT BUT CAN EAT CHICKEN
+   25: JOHN *IX *MARY IX IX                                          JOHN LIKE IX IX IX
+   28: JOHN *IX IX IX IX                                             JOHN LIKE IX IX IX
+   30: JOHN *IX *WHO *JOHN IX                                        JOHN LIKE IX IX IX
+   36: *IX *JOHN *JOHN *GIVE *MARY *IX                               MARY VEGETABLE KNOW IX LIKE CORN1
+   40: *MARY IX *JOHN *IX *IX                                        JOHN IX THINK MARY LOVE
+   43: JOHN *WOMAN BUY HOUSE                                         JOHN MUST BUY HOUSE
+   50: *JOHN *NOT BUY CAR *MARY                                      FUTURE JOHN BUY CAR SHOULD
+   54: JOHN *JOHN *JOHN BUY HOUSE                                    JOHN SHOULD NOT BUY HOUSE
+   57: JOHN *FUTURE *IX *IX                                          JOHN DECIDE VISIT MARY
+   67: JOHN *WHO *IX BUY *LOVE                                       JOHN FUTURE NOT BUY HOUSE
+   71: JOHN *MARY VISIT MARY                                         JOHN WILL VISIT MARY
+   74: JOHN *WHO *IX MARY                                            JOHN NOT VISIT MARY
+   77: *JOHN BLAME MARY                                              ANN BLAME MARY
+   84: *JOHN *NEW *IX *MARY                                          IX-1P FIND SOMETHING-ONE BOOK
+   89: JOHN *JOHN GIVE *IX IX NEW *CAN                               JOHN IX GIVE MAN IX NEW COAT
+   90: JOHN *JOHN *JOHN *IX WOMAN *MARY                              JOHN GIVE IX SOMETHING-ONE WOMAN BOOK
+   92: JOHN *IX IX *IX WOMAN *NEW                                    JOHN GIVE IX SOMETHING-ONE WOMAN BOOK
+  100: *JOHN NEW CAR BREAK-DOWN                                      POSS NEW CAR BREAK-DOWN
+  105: JOHN *IX                                                      JOHN LEG
+  107: JOHN *JOHN *HAVE *FUTURE *MARY                                JOHN POSS FRIEND HAVE CANDY
+  108: *JOHN *HAVE                                                   WOMAN ARRIVE
+  113: *JOHN CAR *MARY *MARY *BUY1                                   IX CAR BLUE SUE BUY
+  119: *JOHN *BUY1 *GO CAR *MARY                                     SUE BUY IX CAR BLUE
+  122: JOHN *BOX BOOK                                                JOHN READ BOOK
+  139: JOHN *NEW WHAT *JOHN *MARY                                    JOHN BUY WHAT YESTERDAY BOOK
+  142: JOHN BUY YESTERDAY WHAT *MARY                                 JOHN BUY YESTERDAY WHAT BOOK
+  158: *GIVE1 *MARY *JOHN                                            LOVE JOHN WHO
+  167: JOHN IX *IX *ARRIVE *WHAT                                     JOHN IX SAY LOVE MARY
+  171: *IX *JOHN BLAME                                               JOHN MARY BLAME
+  174: *GO *MARY GIVE1 *MARY *PEOPLE                                 PEOPLE GROUP GIVE1 JANA TOY
+  181: JOHN *GIVE1                                                   JOHN ARRIVE
+  184: *GIVE *JOHN *GIVE1 TEACHER *MARY                              ALL BOY GIVE TEACHER APPLE
+  189: JOHN *IX *JOHN *WHAT                                          JOHN GIVE GIRL BOX
+  193: JOHN *IX *LIKE BOX                                            JOHN GIVE GIRL BOX
+  199: *JOHN *BOOK *MARY                                             LIKE CHOCOLATE WHO
+  201: JOHN *IX *IX *LIKE BUY HOUSE                                  JOHN TELL MARY IX-1P BUY HOUSE
